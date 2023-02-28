@@ -55,11 +55,14 @@ for group_name, group_data in grouped_data:
     # Get the location
     area = group_data['수요기관지역명'].to_list()[0].split(' ')[0]
     
+    # Get the organization type
+    organization = group_data['수요기관구분'].to_list()[0].split(' ')[0]
+    
     # Get timestamp
     timestamp = datetime.datetime.strptime(group_data['계약(납품요구)일자'].to_list()[0],"%Y%m%d")
     
     # Define a new row of data as a dictionary
-    new_data = {'수요기관지역명': area, '장비금액': device_cost, '계약금액': total_cost, '냉방용량': kW_cool, '난방용량': kW_heat, '날짜':timestamp}
+    new_data = {'수요기관지역명': area, '수요기관구분':organization, '장비금액': device_cost, '계약금액': total_cost, '냉방용량': kW_cool, '난방용량': kW_heat, '날짜':timestamp}
     new_data = pd.DataFrame([new_data])
     
     # Concatenate the new DataFrame to the original empty DataFrame
