@@ -10,9 +10,9 @@ Folder Structure
 project_name/
 ├── data/
 │   └── input/
-│       └── 특정품목 조달 내역_2022.csv
+│       └── input.csv
 │   └── output/
-│       └── 특정품목 조달 내역_2022.excel
+│       └── output.xlsx
 ├── scripts/
 │   └── analyze_csv.py
 ├── requirements.txt
@@ -30,8 +30,12 @@ project_name/
  -----
 
  The script reads a CSV file containing procurement data for a specific item. The path to the file is specified in `input_file_path`. The expected format of the CSV file is:
-
+ 
+``` 
+  
 | 계약(납품요구)일자 | 계약(납품요구)번호 | 수요기관구분 | 수요기관지역명 | 물품분류번호 | 품명 | 세부물품분류번호 | 물품식별번호 | 세부품명 | 품목 | 단가 | 수량 | 단위 | 금액 | |------------------|------------------|--------------|----------------|--------------|------|----------------|--------------|----------|------|------|------|------| | | | | | | | | | | | | | |
+  
+```
 
  Output
  ------
@@ -39,9 +43,11 @@ project_name/
  The script outputs an Excel file containing the analyzed data. The path to the output file is specified in `output_file_path`. The format of the Excel file is:
 
  ```
+   
  | 수요기관지역명 | 장비금액 | 계약금액 | 냉방용량 | 난방용량 | 날짜 |
  | --- | --- | --- | --- | --- | --- |
  |  |  |  |  |  |  |
+   
  ```
 
  How it works
