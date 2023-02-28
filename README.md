@@ -42,9 +42,9 @@ project_name/
  The script outputs an Excel file containing the analyzed data. The path to the output file is specified in `output_file_path`. The format of the Excel file is:
 
 
-|수요기관지역명|장비금액|계약금액|냉방용량|난방용량|날짜|
-|-------------|-------|--------|------|--------|---|
-|경기도|1502000|6758800|18.4|20.7|2022-01-21 00:00:00|
+|수요기관지역명|수요기관구분|장비금액|계약금액|냉방용량|난방용량|날짜|
+|-------------|-------|-------|--------|------|--------|---|
+|경기도|교육기관|1502000|6758800|18.4|20.7|2022-01-21 00:00:00|
 
 
  How it works
