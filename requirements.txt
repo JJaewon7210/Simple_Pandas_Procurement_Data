@@ -1,3 +1,6 @@
 openpyxl
 pandas
 datetime
+statsmodels
+sklearn
+matplotlib
