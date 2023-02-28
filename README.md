@@ -67,3 +67,5 @@ project_name/
  2. Save the procurement data for a specific item in a CSV file and specify its path in `input_file_path`.
  3. Specify the path for the output file in `output_file_path`.
  4. Run the script. The analyzed data will be outputted to an Excel file at the specified path.
+
+README.md from chagGPT
