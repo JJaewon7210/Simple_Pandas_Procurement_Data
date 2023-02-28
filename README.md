@@ -16,13 +16,6 @@ project_name/
 └── README.md
 ```
 
- Dependencies
- ------------
-
- * pandas
- * numpy
- * openpyxl
-
  Input
  -----
 
