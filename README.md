@@ -1,6 +1,3 @@
-Project Name
-============
-
 This is a Python project for analyzing CSV files that contains HVAC project. The project reads a CSV file, performs analysis, and saves the results in a new CSV(excel) file.
 
 Folder Structure
@@ -49,7 +46,7 @@ project_name/
 
  How it works
  ------------
-
+ preprocess.py
  1. Reads the CSV file and selects the relevant columns for analysis.
  2. Changes the data type of certain columns to integers.
  3. Groups the data by '계약(납품요구)번호'.
@@ -59,6 +56,10 @@ project_name/
  7. Extracts the location and date information for each group.
  8. Stores the extracted information for each group in a new DataFrame.
  9. Outputs the new DataFrame as an Excel file.
+ 
+ analyze.py
+ 1. Read the output excel file.
+ 2. Visualize and analyze the excel file.
 
  How to use
  ----------
