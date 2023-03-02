@@ -11,7 +11,8 @@ project_name/
 │   └── output/
 │       └── output.xlsx
 ├── scripts/
-│   └── analyze_csv.py
+│   ├── analyze.ipynb
+│   └── preprocess.ipynb
 ├── requirements.txt
 └── README.md
 ```
