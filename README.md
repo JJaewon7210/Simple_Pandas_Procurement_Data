@@ -63,4 +63,4 @@ project_name/
  3. Specify the path for the output file in `output_file_path`.
  4. Run the script. The analyzed data will be outputted to an Excel file at the specified path.
 
-README.md from chagGPT
+README.md from chatGPT
